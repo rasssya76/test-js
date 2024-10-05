@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.get('/info', (res) => {
+app.get('/info', (req, res) => {
  res.send('{
   "nama": "Rama",
   "usia": 17,
