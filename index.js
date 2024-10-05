@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/info', (req, res) => {
- res.send('{
+ res.send(`{
   "nama": "Rama",
   "usia": 17,
   "tanggalLahir": "2006-10-31",
@@ -39,7 +39,7 @@ app.get('/info', (req, res) => {
   },
   "citaCita": "Menjadi seorang Yang berguna",
   "mottohidup": "jangan pernah mengeluh, karena banyak orang yg ingin hidup seperti mu"
-}')
+}`)
 });
 
 module.exports = app;
