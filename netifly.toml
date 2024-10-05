@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && node index.js"
+  command = "npm install"
   functions = "functions"
   publish = "public"
 
