@@ -1,0 +1,26 @@
+{
+  "name": "express-netlify-app",
+  "version": "1.0.0",
+  "description": "A simple Express.js app deployed on Netlify",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "netlify-lambda build ."
+  },
+  "keywords": [
+    "express",
+    "netlify",
+    "serverless"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.7"
+  }
+}
